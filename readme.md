@@ -1,3 +1,3 @@
 # Cocoa clon 2022 Update
 
-css got so much better
+html & css got so much better
