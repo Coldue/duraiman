@@ -1,0 +1,11 @@
+.log-in__mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+
+.log-in__mark img {
+  height: 500px;
+  width: 500px;
+}

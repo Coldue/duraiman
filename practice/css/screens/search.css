@@ -1,0 +1,108 @@
+.search-main-row__icons {
+  background-color: #ffd8f6;
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-main-row__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+}
+
+.search-main-row__icons img {
+  height: 70px;
+  width: 70px;
+}
+
+.search-main__recommend {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px;
+  letter-spacing: 3px;
+  opacity: 0.6;
+}
+
+.search-list__avatar-title {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+.search-list__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.search-list__user-icon {
+  background-color: #ffd8f6;
+  height: 35px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-middle__border {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 7px;
+  opacity: 0.5;
+  letter-spacing: 5px;
+}
+
+
+.search-middle__title-detail h1 {
+  font-size: 25px;
+  font-weight: 520;
+  letter-spacing: 3px;
+}
+
+.search-middle__title-detail h3 {
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+
+
+.search-middle__detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+  letter-spacing: 3px;
+}
+
+.search-middle__detail :first-child {
+  margin-bottom: 20px;
+}
+.search-middle__detail img {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+
+.search-middle__detail-icon {
+  display: flex;
+}
+
+.search-middle__detail-icon img {
+  height: 18px;
+  width: 18px;
+  margin-right: 3px;
+}
+
+.search-middle__detail-icon span {
+  font-weight: 540;
+}
