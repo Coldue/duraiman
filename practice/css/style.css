@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Nunito:ital@1&family=Open+Sans:ital@1&family=Ubuntu:wght@500&display=swap');
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "reset.css";
+@import "variable.css";
+
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/header-top-bar.css";
+@import "components/nav.css";
+@import "components/avatar-title-list.css";
+
+/*screens*/
+@import "screens/loding.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/search.css";
+@import "screens/calls.css";
+@import "screens/more.css";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #ffebfe;
+  padding-top: 30px;
+}

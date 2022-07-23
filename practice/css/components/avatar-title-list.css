@@ -1,0 +1,26 @@
+.avatar-title__list {
+  display: flex;
+  margin-top: 5px;
+}
+
+.avatar-title__list img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin: 0px 20px;
+}
+
+.list__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.list__title span:first-child  {
+  font-size: 25px;
+}
+
+.list__title span:nth-child(2) {
+  font-size: 15px;
+  opacity: 0.6;
+}
